@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9483C12C10BD2000D90D3E /* SwiftUIViewtst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9483C02C10BD2000D90D3E /* SwiftUIViewtst.swift */; };
+		2CC7BB982C0A5B040058A818 /* OCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7BB972C0A5B040058A818 /* OCView.swift */; };
+		2CC7BB9A2C0A636A0058A818 /* performanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7BB992C0A636A0058A818 /* performanceView.swift */; };
+		2CC7BB9C2C0A69F40058A818 /* Manual_Adjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7BB9B2C0A69F40058A818 /* Manual_Adjustment.swift */; };
+		2CC7BB9E2C0A7DCF0058A818 /* Relief Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7BB9D2C0A7DCF0058A818 /* Relief Mode.swift */; };
+		2CD959F92C078BC40071BB86 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD959F82C078BC40071BB86 /* Model.swift */; };
+		2CD959FB2C078C100071BB86 /* motorValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD959FA2C078C100071BB86 /* motorValues.swift */; };
+		2CD959FD2C078C460071BB86 /* BleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD959FC2C078C460071BB86 /* BleService.swift */; };
+		2CD95A042C078D870071BB86 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD959FF2C078D870071BB86 /* Log.swift */; };
+		2CD95A052C078D870071BB86 /* AppOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A002C078D870071BB86 /* AppOperation.swift */; };
+		2CD95A062C078D870071BB86 /* EventTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A012C078D870071BB86 /* EventTimer.swift */; };
+		2CD95A072C078D870071BB86 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A022C078D870071BB86 /* Protocols.swift */; };
+		2CD95A082C078D870071BB86 /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A032C078D870071BB86 /* TimedOperation.swift */; };
+		2CD95A102C0794560071BB86 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A0B2C0794560071BB86 /* Data.swift */; };
+		2CD95A112C0794560071BB86 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A0C2C0794560071BB86 /* UIColor.swift */; };
+		2CD95A122C0794560071BB86 /* textFieldEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A0D2C0794560071BB86 /* textFieldEx.swift */; };
+		2CD95A132C0794560071BB86 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A0E2C0794560071BB86 /* CoreBluetooth.swift */; };
+		2CD95A152C0796B80071BB86 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A142C0796B80071BB86 /* helper.swift */; };
+		2CD95A182C0798670071BB86 /* motorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A172C0798670071BB86 /* motorEntity.swift */; };
+		2CD95A1B2C08CDCB0071BB86 /* blesingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A1A2C08CDCB0071BB86 /* blesingleton.swift */; };
+		2CE986D52C18D46A0014FE06 /* naview1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D42C18D46A0014FE06 /* naview1.swift */; };
+		2CE986D82C1A06860014FE06 /* connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D72C1A06860014FE06 /* connect.swift */; };
+		2CE986DA2C1A2D300014FE06 /* VCBRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D92C1A2D300014FE06 /* VCBRootView.swift */; };
 		2CFC9AD32C03BDF50094E218 /* navigationviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC9AD22C03BDF50094E218 /* navigationviewApp.swift */; };
 		2CFC9AD52C03BDF50094E218 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC9AD42C03BDF50094E218 /* ContentView.swift */; };
 		2CFC9AD72C03BDF80094E218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC9AD62C03BDF80094E218 /* Assets.xcassets */; };
 		2CFC9ADA2C03BDF80094E218 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFC9AD92C03BDF80094E218 /* Preview Assets.xcassets */; };
+		2CFC9AE12C03CE3A0094E218 /* learnModeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC9AE02C03CE3A0094E218 /* learnModeview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C9483C02C10BD2000D90D3E /* SwiftUIViewtst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewtst.swift; sourceTree = "<group>"; };
+		2CC7BB952C0A39460058A818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2CC7BB972C0A5B040058A818 /* OCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCView.swift; sourceTree = "<group>"; };
+		2CC7BB992C0A636A0058A818 /* performanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = performanceView.swift; sourceTree = "<group>"; };
+		2CC7BB9B2C0A69F40058A818 /* Manual_Adjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manual_Adjustment.swift; sourceTree = "<group>"; };
+		2CC7BB9D2C0A7DCF0058A818 /* Relief Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Relief Mode.swift"; sourceTree = "<group>"; };
+		2CD959F82C078BC40071BB86 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2CD959FA2C078C100071BB86 /* motorValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motorValues.swift; sourceTree = "<group>"; };
+		2CD959FC2C078C460071BB86 /* BleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleService.swift; sourceTree = "<group>"; };
+		2CD959FF2C078D870071BB86 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		2CD95A002C078D870071BB86 /* AppOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppOperation.swift; sourceTree = "<group>"; };
+		2CD95A012C078D870071BB86 /* EventTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTimer.swift; sourceTree = "<group>"; };
+		2CD95A022C078D870071BB86 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		2CD95A032C078D870071BB86 /* TimedOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedOperation.swift; sourceTree = "<group>"; };
+		2CD95A0B2C0794560071BB86 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2CD95A0C2C0794560071BB86 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2CD95A0D2C0794560071BB86 /* textFieldEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textFieldEx.swift; sourceTree = "<group>"; };
+		2CD95A0E2C0794560071BB86 /* CoreBluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
+		2CD95A142C0796B80071BB86 /* helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		2CD95A172C0798670071BB86 /* motorEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motorEntity.swift; sourceTree = "<group>"; };
+		2CD95A1A2C08CDCB0071BB86 /* blesingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blesingleton.swift; sourceTree = "<group>"; };
+		2CE986D42C18D46A0014FE06 /* naview1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naview1.swift; sourceTree = "<group>"; };
+		2CE986D72C1A06860014FE06 /* connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connect.swift; sourceTree = "<group>"; };
+		2CE986D92C1A2D300014FE06 /* VCBRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCBRootView.swift; sourceTree = "<group>"; };
 		2CFC9ACF2C03BDF40094E218 /* navigationview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigationview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFC9AD22C03BDF50094E218 /* navigationviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationviewApp.swift; sourceTree = "<group>"; };
 		2CFC9AD42C03BDF50094E218 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CFC9AD62C03BDF80094E218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CFC9AD92C03BDF80094E218 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CFC9AE02C03CE3A0094E218 /* learnModeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnModeview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +81,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CC7BB962C0A59AD0058A818 /* UI_screens */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC9AE02C03CE3A0094E218 /* learnModeview.swift */,
+				2CC7BB9B2C0A69F40058A818 /* Manual_Adjustment.swift */,
+				2CC7BB992C0A636A0058A818 /* performanceView.swift */,
+				2CC7BB972C0A5B040058A818 /* OCView.swift */,
+				2CFC9AD42C03BDF50094E218 /* ContentView.swift */,
+				2CC7BB9D2C0A7DCF0058A818 /* Relief Mode.swift */,
+				2C9483C02C10BD2000D90D3E /* SwiftUIViewtst.swift */,
+				2CE986D92C1A2D300014FE06 /* VCBRootView.swift */,
+			);
+			path = UI_screens;
+			sourceTree = "<group>";
+		};
+		2CD959FE2C078D870071BB86 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2CD959FF2C078D870071BB86 /* Log.swift */,
+				2CD95A002C078D870071BB86 /* AppOperation.swift */,
+				2CD95A012C078D870071BB86 /* EventTimer.swift */,
+				2CD95A022C078D870071BB86 /* Protocols.swift */,
+				2CD95A032C078D870071BB86 /* TimedOperation.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2CD95A092C0794560071BB86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CD95A0B2C0794560071BB86 /* Data.swift */,
+				2CD95A0C2C0794560071BB86 /* UIColor.swift */,
+				2CD95A0D2C0794560071BB86 /* textFieldEx.swift */,
+				2CD95A0E2C0794560071BB86 /* CoreBluetooth.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CD95A162C0798670071BB86 /* vvcb_entities */ = {
+			isa = PBXGroup;
+			children = (
+				2CD95A172C0798670071BB86 /* motorEntity.swift */,
+				2CD95A1A2C08CDCB0071BB86 /* blesingleton.swift */,
+			);
+			path = vvcb_entities;
+			sourceTree = "<group>";
+		};
+		2CE986D32C18D4120014FE06 /* structs */ = {
+			isa = PBXGroup;
+			children = (
+				2CE986D42C18D46A0014FE06 /* naview1.swift */,
+			);
+			path = structs;
+			sourceTree = "<group>";
+		};
+		2CE986D62C1A063E0014FE06 /* ttstViews */ = {
+			isa = PBXGroup;
+			children = (
+				2CE986D72C1A06860014FE06 /* connect.swift */,
+			);
+			path = ttstViews;
+			sourceTree = "<group>";
+		};
 		2CFC9AC62C03BDF40094E218 = {
 			isa = PBXGroup;
 			children = (
+				2CE986D62C1A063E0014FE06 /* ttstViews */,
+				2CE986D32C18D4120014FE06 /* structs */,
 				2CFC9AD12C03BDF50094E218 /* navigationview */,
 				2CFC9AD02C03BDF40094E218 /* Products */,
 			);
@@ -51,8 +165,16 @@
 		2CFC9AD12C03BDF50094E218 /* navigationview */ = {
 			isa = PBXGroup;
 			children = (
+				2CC7BB962C0A59AD0058A818 /* UI_screens */,
+				2CC7BB952C0A39460058A818 /* Info.plist */,
+				2CD95A162C0798670071BB86 /* vvcb_entities */,
+				2CD95A142C0796B80071BB86 /* helper.swift */,
+				2CD95A092C0794560071BB86 /* Extensions */,
+				2CD959FE2C078D870071BB86 /* Utilities */,
+				2CD959FC2C078C460071BB86 /* BleService.swift */,
+				2CD959FA2C078C100071BB86 /* motorValues.swift */,
+				2CD959F82C078BC40071BB86 /* Model.swift */,
 				2CFC9AD22C03BDF50094E218 /* navigationviewApp.swift */,
-				2CFC9AD42C03BDF50094E218 /* ContentView.swift */,
 				2CFC9AD62C03BDF80094E218 /* Assets.xcassets */,
 				2CFC9AD82C03BDF80094E218 /* Preview Content */,
 			);
@@ -137,8 +259,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC7BB9E2C0A7DCF0058A818 /* Relief Mode.swift in Sources */,
+				2CE986D82C1A06860014FE06 /* connect.swift in Sources */,
+				2CFC9AE12C03CE3A0094E218 /* learnModeview.swift in Sources */,
+				2CC7BB982C0A5B040058A818 /* OCView.swift in Sources */,
+				2CD95A112C0794560071BB86 /* UIColor.swift in Sources */,
+				2CD95A042C078D870071BB86 /* Log.swift in Sources */,
+				2CE986DA2C1A2D300014FE06 /* VCBRootView.swift in Sources */,
+				2CD959FB2C078C100071BB86 /* motorValues.swift in Sources */,
+				2CC7BB9C2C0A69F40058A818 /* Manual_Adjustment.swift in Sources */,
+				2CD95A122C0794560071BB86 /* textFieldEx.swift in Sources */,
 				2CFC9AD52C03BDF50094E218 /* ContentView.swift in Sources */,
+				2C9483C12C10BD2000D90D3E /* SwiftUIViewtst.swift in Sources */,
+				2CD95A152C0796B80071BB86 /* helper.swift in Sources */,
+				2CE986D52C18D46A0014FE06 /* naview1.swift in Sources */,
+				2CD95A082C078D870071BB86 /* TimedOperation.swift in Sources */,
+				2CD959FD2C078C460071BB86 /* BleService.swift in Sources */,
+				2CD95A1B2C08CDCB0071BB86 /* blesingleton.swift in Sources */,
+				2CD95A072C078D870071BB86 /* Protocols.swift in Sources */,
 				2CFC9AD32C03BDF50094E218 /* navigationviewApp.swift in Sources */,
+				2CD95A102C0794560071BB86 /* Data.swift in Sources */,
+				2CD959F92C078BC40071BB86 /* Model.swift in Sources */,
+				2CD95A052C078D870071BB86 /* AppOperation.swift in Sources */,
+				2CD95A132C0794560071BB86 /* CoreBluetooth.swift in Sources */,
+				2CC7BB9A2C0A636A0058A818 /* performanceView.swift in Sources */,
+				2CD95A182C0798670071BB86 /* motorEntity.swift in Sources */,
+				2CD95A062C078D870071BB86 /* EventTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +416,15 @@
 				DEVELOPMENT_TEAM = HBC29W52BW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navigationview/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"Use Bluetooth to discover, connect to and share information with nearby devices\"";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"Use Bluetooth to discover, connect to and share information with nearby devices\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +449,15 @@
 				DEVELOPMENT_TEAM = HBC29W52BW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navigationview/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "\"Use Bluetooth to discover, connect to and share information with nearby devices\"";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "\"Use Bluetooth to discover, connect to and share information with nearby devices\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
