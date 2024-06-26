@@ -9,9 +9,38 @@ import Foundation
 import SwiftUI
 
 struct mainav: View {
+    @State var startBtn2: Color = Color.green
+    @State var startBtnFrame2: Color = Color.green
     var body: some View {
         
         Text("hi")
+        
+        
+           Button {
+               self.startBtn2 = Color.red
+               self.startBtnFrame2 = Color.red
+              // Lmodel.set(entity: kEntityVcbLearnMode, value: true, response: true)
+                   
+               
+            } label: {
+               Text("Start")
+                
+                   .foregroundColor(.black)
+                   .font(.largeTitle)
+                   .accessibilityLabel((kEntityVcbLearnMode) )
+                   .background(self.startBtn2)
+                   .disabled(false)
+               
+           }
+
+        
+        
+        
+        
+        
+        
+        
+        
  /*
         
         NavigationView {

@@ -15,10 +15,10 @@ import os.log
 
 // MARK: - Application scope singletons
 internal let nc = NotificationCenter.default
-internal let bleRef = SharedObject.shared.singleBle
-internal  let modelRef = SharedModObject.shared.singleMod
-internal let Mpar =  SharedMotorValues.shared.singleMotorVal
-internal let MotAdjVal =  SharedmAdjObject.shared.singlemAdj
+internal let bleServiceObj = SharedObject.shared.singleBle
+internal  let modelObj = SharedModObject.shared.singleMod
+internal let MparObj =  SharedMotorValues.shared.singleMotorVal
+internal let MotAdjValObj =  SharedmAdjObject.shared.singlemAdj
 
 
 // MARK: - Publication topics

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1FB1732C25E00A007EC97E /* DecscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB1722C25E00A007EC97E /* DecscriptionView.swift */; };
+		2C1FB1752C29F6E0007EC97E /* learnmodetextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB1742C29F6E0007EC97E /* learnmodetextfield.swift */; };
+		2C1FB1772C2A1201007EC97E /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB1762C2A1201007EC97E /* InstructionsView.swift */; };
+		2C1FB17D2C2B6708007EC97E /* learnmodeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB17C2C2B6707007EC97E /* learnmodeView2.swift */; };
+		2C1FB17F2C2C74D5007EC97E /* homeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB17E2C2C74D5007EC97E /* homeScreenView.swift */; };
 		2C9483C12C10BD2000D90D3E /* SwiftUIViewtst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9483C02C10BD2000D90D3E /* SwiftUIViewtst.swift */; };
 		2CC7BB982C0A5B040058A818 /* OCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7BB972C0A5B040058A818 /* OCView.swift */; };
 		2CC7BB9A2C0A636A0058A818 /* performanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7BB992C0A636A0058A818 /* performanceView.swift */; };
@@ -28,7 +33,7 @@
 		2CD95A182C0798670071BB86 /* motorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A172C0798670071BB86 /* motorEntity.swift */; };
 		2CD95A1B2C08CDCB0071BB86 /* blesingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD95A1A2C08CDCB0071BB86 /* blesingleton.swift */; };
 		2CE986D52C18D46A0014FE06 /* naview1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D42C18D46A0014FE06 /* naview1.swift */; };
-		2CE986D82C1A06860014FE06 /* connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D72C1A06860014FE06 /* connect.swift */; };
+		2CE986D82C1A06860014FE06 /* connect_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D72C1A06860014FE06 /* connect_image.swift */; };
 		2CE986DA2C1A2D300014FE06 /* VCBRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE986D92C1A2D300014FE06 /* VCBRootView.swift */; };
 		2CFC9AD32C03BDF50094E218 /* navigationviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC9AD22C03BDF50094E218 /* navigationviewApp.swift */; };
 		2CFC9AD52C03BDF50094E218 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC9AD42C03BDF50094E218 /* ContentView.swift */; };
@@ -38,6 +43,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1FB1722C25E00A007EC97E /* DecscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecscriptionView.swift; sourceTree = "<group>"; };
+		2C1FB1742C29F6E0007EC97E /* learnmodetextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnmodetextfield.swift; sourceTree = "<group>"; };
+		2C1FB1762C2A1201007EC97E /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		2C1FB17C2C2B6707007EC97E /* learnmodeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnmodeView2.swift; sourceTree = "<group>"; };
+		2C1FB17E2C2C74D5007EC97E /* homeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenView.swift; sourceTree = "<group>"; };
 		2C9483C02C10BD2000D90D3E /* SwiftUIViewtst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewtst.swift; sourceTree = "<group>"; };
 		2CC7BB952C0A39460058A818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2CC7BB972C0A5B040058A818 /* OCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCView.swift; sourceTree = "<group>"; };
@@ -60,7 +70,7 @@
 		2CD95A172C0798670071BB86 /* motorEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motorEntity.swift; sourceTree = "<group>"; };
 		2CD95A1A2C08CDCB0071BB86 /* blesingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blesingleton.swift; sourceTree = "<group>"; };
 		2CE986D42C18D46A0014FE06 /* naview1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naview1.swift; sourceTree = "<group>"; };
-		2CE986D72C1A06860014FE06 /* connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connect.swift; sourceTree = "<group>"; };
+		2CE986D72C1A06860014FE06 /* connect_image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connect_image.swift; sourceTree = "<group>"; };
 		2CE986D92C1A2D300014FE06 /* VCBRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCBRootView.swift; sourceTree = "<group>"; };
 		2CFC9ACF2C03BDF40094E218 /* navigationview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigationview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFC9AD22C03BDF50094E218 /* navigationviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationviewApp.swift; sourceTree = "<group>"; };
@@ -81,6 +91,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1FB1712C25DFCC007EC97E /* teststuff */ = {
+			isa = PBXGroup;
+			children = (
+				2C1FB1722C25E00A007EC97E /* DecscriptionView.swift */,
+				2C1FB1742C29F6E0007EC97E /* learnmodetextfield.swift */,
+				2C1FB1762C2A1201007EC97E /* InstructionsView.swift */,
+				2C1FB17C2C2B6707007EC97E /* learnmodeView2.swift */,
+				2C1FB17E2C2C74D5007EC97E /* homeScreenView.swift */,
+			);
+			path = teststuff;
+			sourceTree = "<group>";
+		};
 		2CC7BB962C0A59AD0058A818 /* UI_screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +161,7 @@
 		2CE986D62C1A063E0014FE06 /* ttstViews */ = {
 			isa = PBXGroup;
 			children = (
-				2CE986D72C1A06860014FE06 /* connect.swift */,
+				2CE986D72C1A06860014FE06 /* connect_image.swift */,
 			);
 			path = ttstViews;
 			sourceTree = "<group>";
@@ -147,6 +169,7 @@
 		2CFC9AC62C03BDF40094E218 = {
 			isa = PBXGroup;
 			children = (
+				2C1FB1712C25DFCC007EC97E /* teststuff */,
 				2CE986D62C1A063E0014FE06 /* ttstViews */,
 				2CE986D32C18D4120014FE06 /* structs */,
 				2CFC9AD12C03BDF50094E218 /* navigationview */,
@@ -260,11 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC7BB9E2C0A7DCF0058A818 /* Relief Mode.swift in Sources */,
-				2CE986D82C1A06860014FE06 /* connect.swift in Sources */,
+				2CE986D82C1A06860014FE06 /* connect_image.swift in Sources */,
 				2CFC9AE12C03CE3A0094E218 /* learnModeview.swift in Sources */,
+				2C1FB1752C29F6E0007EC97E /* learnmodetextfield.swift in Sources */,
 				2CC7BB982C0A5B040058A818 /* OCView.swift in Sources */,
 				2CD95A112C0794560071BB86 /* UIColor.swift in Sources */,
 				2CD95A042C078D870071BB86 /* Log.swift in Sources */,
+				2C1FB17F2C2C74D5007EC97E /* homeScreenView.swift in Sources */,
 				2CE986DA2C1A2D300014FE06 /* VCBRootView.swift in Sources */,
 				2CD959FB2C078C100071BB86 /* motorValues.swift in Sources */,
 				2CC7BB9C2C0A69F40058A818 /* Manual_Adjustment.swift in Sources */,
@@ -276,12 +301,15 @@
 				2CD95A082C078D870071BB86 /* TimedOperation.swift in Sources */,
 				2CD959FD2C078C460071BB86 /* BleService.swift in Sources */,
 				2CD95A1B2C08CDCB0071BB86 /* blesingleton.swift in Sources */,
+				2C1FB1732C25E00A007EC97E /* DecscriptionView.swift in Sources */,
+				2C1FB17D2C2B6708007EC97E /* learnmodeView2.swift in Sources */,
 				2CD95A072C078D870071BB86 /* Protocols.swift in Sources */,
 				2CFC9AD32C03BDF50094E218 /* navigationviewApp.swift in Sources */,
 				2CD95A102C0794560071BB86 /* Data.swift in Sources */,
 				2CD959F92C078BC40071BB86 /* Model.swift in Sources */,
 				2CD95A052C078D870071BB86 /* AppOperation.swift in Sources */,
 				2CD95A132C0794560071BB86 /* CoreBluetooth.swift in Sources */,
+				2C1FB1772C2A1201007EC97E /* InstructionsView.swift in Sources */,
 				2CC7BB9A2C0A636A0058A818 /* performanceView.swift in Sources */,
 				2CD95A182C0798670071BB86 /* motorEntity.swift in Sources */,
 				2CD95A062C078D870071BB86 /* EventTimer.swift in Sources */,
@@ -424,7 +452,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +485,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

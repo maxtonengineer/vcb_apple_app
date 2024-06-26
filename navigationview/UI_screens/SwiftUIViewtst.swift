@@ -6,6 +6,10 @@
 //
 
 import SwiftUI
+import Foundation
+import os
+import os.log
+import CoreBluetooth
 
 struct SwiftUIViewtst: View {
     

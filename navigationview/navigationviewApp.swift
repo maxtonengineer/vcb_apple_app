@@ -12,48 +12,18 @@ import CoreBluetooth
 
 @main
   struct navigationviewApp: App {
-    
-/*
-     internal let bleService: BleService?
-          var model: Model?
-      var mpar: MotorValues?
-      var mAdj: MotorAdjValues?
       
-*/
-    
       
-      init(){
-          
-       
-/*
-           let bls = SharedObject.shared.singleBle
-            bleService = bls
-          
-          
-          
-          let MotAdjVal =  SharedmAdjObject.shared.singlemAdj
-               mAdj = MotAdjVal
-          
-          let Mpar =  SharedMotorValues.shared.singleMotorVal
-               mpar = Mpar
-          
-           let  Model = Model(mAdj:MotAdjVal, mpar: Mpar, bleService: bls)
-                model = Model
-          /**/
-  */
-    }
- 
+     // @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-
-        
-        
-        
         WindowGroup {
-            
-
-
-            
-            ContentView()
+          
+            //VCBRootView()
+            homeScreenView()
+           // learnmodeView2()
+            //learnScreensetup()
+            //learnmodetextfield()
                 .onAppear{
                     print("top")
                    // Relief_Mode().setupSubscriptions() 
@@ -81,3 +51,31 @@ var model: Model?
 var mpar: MotorValues?
 var mAdj: MotorAdjValues?
 */
+/*
+     internal let bleService: BleService?
+          var model: Model?
+      var mpar: MotorValues?
+      var mAdj: MotorAdjValues?
+      
+
+      init(){
+          
+       
+
+           let bls = SharedObject.shared.singleBle
+            bleService = bls
+          
+          
+          
+          let MotAdjVal =  SharedmAdjObject.shared.singlemAdj
+               mAdj = MotAdjVal
+          
+          let Mpar =  SharedMotorValues.shared.singleMotorVal
+               mpar = Mpar
+          
+           let  Model = Model(mAdj:MotAdjVal, mpar: Mpar, bleService: bls)
+                model = Model
+          /**/
+ 
+    }
+       */

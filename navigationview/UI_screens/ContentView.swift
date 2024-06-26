@@ -24,10 +24,11 @@ Text("r")
         
     }// end  var body: some View
     
-    func foo(){
+/*    func foo(){
         modelRef.getRssi()
-        bleRef.attachPeripheral(suuid: motorServiceUuid)
+        bleService.attachPeripheral(suuid: motorServiceUuid)
     }
+ */
 }// end struct ContentView: View
         
  
