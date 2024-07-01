@@ -82,7 +82,7 @@ struct learnmodetextfield: View {
          
          .frame(width: 750,height: 275,  alignment: .top)
          .background(Color.clear)
-         .border(.black, width: 5)
+         .border(.black, width: 2)
     /*      Rectangle()
              .fill(Color.red)
              .frame(width: 700,height: 500)

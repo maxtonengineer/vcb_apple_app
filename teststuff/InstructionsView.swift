@@ -42,7 +42,7 @@ struct InstructionsView: View {
         .padding()
         .frame(width: 750,height: 200,  alignment: .top)
         .background(Color.clear)
-        .border(.black, width: 5)
+        .border(.black, width: 2)
 
  
     }
@@ -53,9 +53,9 @@ struct InstructionsView: View {
 
 
 
-
 struct InstructionsView_Previews: PreviewProvider {
     static var previews: some View {
-        InstructionsView()
+       InstructionsView()
+       // AboutView()
     }
 }

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C08CD3A2C2F50980038ED3E /* aboutScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08CD392C2F50980038ED3E /* aboutScreenView.swift */; };
+		2C0EF21E2C2CA48500472D27 /* Inspectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF21D2C2CA48500472D27 /* Inspectionview.swift */; };
+		2C0EF2202C2CB5FE00472D27 /* SwiftUItestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF21F2C2CB5FE00472D27 /* SwiftUItestView.swift */; };
+		2C0EF2232C2CB84A00472D27 /* slider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF2222C2CB84A00472D27 /* slider2.swift */; };
+		2C0EF2252C2CBC8A00472D27 /* sliders3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF2242C2CBC8A00472D27 /* sliders3.swift */; };
+		2C0EF2282C2F145C00472D27 /* menuBorderIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF2272C2F145C00472D27 /* menuBorderIView.swift */; };
+		2C0EF22A2C2F218200472D27 /* mainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF2292C2F218200472D27 /* mainMenuView.swift */; };
+		2C0EF22C2C2F278D00472D27 /* learnMode3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EF22B2C2F278D00472D27 /* learnMode3View.swift */; };
 		2C1FB1732C25E00A007EC97E /* DecscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB1722C25E00A007EC97E /* DecscriptionView.swift */; };
 		2C1FB1752C29F6E0007EC97E /* learnmodetextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB1742C29F6E0007EC97E /* learnmodetextfield.swift */; };
 		2C1FB1772C2A1201007EC97E /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FB1762C2A1201007EC97E /* InstructionsView.swift */; };
@@ -43,6 +51,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C08CD392C2F50980038ED3E /* aboutScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutScreenView.swift; sourceTree = "<group>"; };
+		2C0EF21D2C2CA48500472D27 /* Inspectionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspectionview.swift; sourceTree = "<group>"; };
+		2C0EF21F2C2CB5FE00472D27 /* SwiftUItestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUItestView.swift; sourceTree = "<group>"; };
+		2C0EF2222C2CB84A00472D27 /* slider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider2.swift; sourceTree = "<group>"; };
+		2C0EF2242C2CBC8A00472D27 /* sliders3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sliders3.swift; sourceTree = "<group>"; };
+		2C0EF2272C2F145C00472D27 /* menuBorderIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuBorderIView.swift; sourceTree = "<group>"; };
+		2C0EF2292C2F218200472D27 /* mainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenuView.swift; sourceTree = "<group>"; };
+		2C0EF22B2C2F278D00472D27 /* learnMode3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnMode3View.swift; sourceTree = "<group>"; };
 		2C1FB1722C25E00A007EC97E /* DecscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecscriptionView.swift; sourceTree = "<group>"; };
 		2C1FB1742C29F6E0007EC97E /* learnmodetextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnmodetextfield.swift; sourceTree = "<group>"; };
 		2C1FB1762C2A1201007EC97E /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
@@ -91,6 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0EF2212C2CB81C00472D27 /* testcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EF2222C2CB84A00472D27 /* slider2.swift */,
+				2C0EF2242C2CBC8A00472D27 /* sliders3.swift */,
+			);
+			path = testcontrols;
+			sourceTree = "<group>";
+		};
+		2C0EF2262C2F141D00472D27 /* testviewgrp */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EF2272C2F145C00472D27 /* menuBorderIView.swift */,
+				2C0EF2292C2F218200472D27 /* mainMenuView.swift */,
+				2C0EF22B2C2F278D00472D27 /* learnMode3View.swift */,
+			);
+			path = testviewgrp;
+			sourceTree = "<group>";
+		};
 		2C1FB1712C25DFCC007EC97E /* teststuff */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +134,7 @@
 				2C1FB1762C2A1201007EC97E /* InstructionsView.swift */,
 				2C1FB17C2C2B6707007EC97E /* learnmodeView2.swift */,
 				2C1FB17E2C2C74D5007EC97E /* homeScreenView.swift */,
+				2C0EF21F2C2CB5FE00472D27 /* SwiftUItestView.swift */,
 			);
 			path = teststuff;
 			sourceTree = "<group>";
@@ -114,6 +150,8 @@
 				2CC7BB9D2C0A7DCF0058A818 /* Relief Mode.swift */,
 				2C9483C02C10BD2000D90D3E /* SwiftUIViewtst.swift */,
 				2CE986D92C1A2D300014FE06 /* VCBRootView.swift */,
+				2C0EF21D2C2CA48500472D27 /* Inspectionview.swift */,
+				2C08CD392C2F50980038ED3E /* aboutScreenView.swift */,
 			);
 			path = UI_screens;
 			sourceTree = "<group>";
@@ -169,6 +207,8 @@
 		2CFC9AC62C03BDF40094E218 = {
 			isa = PBXGroup;
 			children = (
+				2C0EF2262C2F141D00472D27 /* testviewgrp */,
+				2C0EF2212C2CB81C00472D27 /* testcontrols */,
 				2C1FB1712C25DFCC007EC97E /* teststuff */,
 				2CE986D62C1A063E0014FE06 /* ttstViews */,
 				2CE986D32C18D4120014FE06 /* structs */,
@@ -283,23 +323,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC7BB9E2C0A7DCF0058A818 /* Relief Mode.swift in Sources */,
+				2C0EF2282C2F145C00472D27 /* menuBorderIView.swift in Sources */,
 				2CE986D82C1A06860014FE06 /* connect_image.swift in Sources */,
 				2CFC9AE12C03CE3A0094E218 /* learnModeview.swift in Sources */,
 				2C1FB1752C29F6E0007EC97E /* learnmodetextfield.swift in Sources */,
 				2CC7BB982C0A5B040058A818 /* OCView.swift in Sources */,
 				2CD95A112C0794560071BB86 /* UIColor.swift in Sources */,
+				2C0EF21E2C2CA48500472D27 /* Inspectionview.swift in Sources */,
 				2CD95A042C078D870071BB86 /* Log.swift in Sources */,
+				2C0EF2252C2CBC8A00472D27 /* sliders3.swift in Sources */,
 				2C1FB17F2C2C74D5007EC97E /* homeScreenView.swift in Sources */,
 				2CE986DA2C1A2D300014FE06 /* VCBRootView.swift in Sources */,
+				2C0EF22A2C2F218200472D27 /* mainMenuView.swift in Sources */,
 				2CD959FB2C078C100071BB86 /* motorValues.swift in Sources */,
 				2CC7BB9C2C0A69F40058A818 /* Manual_Adjustment.swift in Sources */,
 				2CD95A122C0794560071BB86 /* textFieldEx.swift in Sources */,
+				2C08CD3A2C2F50980038ED3E /* aboutScreenView.swift in Sources */,
+				2C0EF2232C2CB84A00472D27 /* slider2.swift in Sources */,
 				2CFC9AD52C03BDF50094E218 /* ContentView.swift in Sources */,
+				2C0EF22C2C2F278D00472D27 /* learnMode3View.swift in Sources */,
 				2C9483C12C10BD2000D90D3E /* SwiftUIViewtst.swift in Sources */,
 				2CD95A152C0796B80071BB86 /* helper.swift in Sources */,
 				2CE986D52C18D46A0014FE06 /* naview1.swift in Sources */,
 				2CD95A082C078D870071BB86 /* TimedOperation.swift in Sources */,
 				2CD959FD2C078C460071BB86 /* BleService.swift in Sources */,
+				2C0EF2202C2CB5FE00472D27 /* SwiftUItestView.swift in Sources */,
 				2CD95A1B2C08CDCB0071BB86 /* blesingleton.swift in Sources */,
 				2C1FB1732C25E00A007EC97E /* DecscriptionView.swift in Sources */,
 				2C1FB17D2C2B6708007EC97E /* learnmodeView2.swift in Sources */,

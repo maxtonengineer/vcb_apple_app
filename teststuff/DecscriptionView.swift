@@ -127,7 +127,7 @@ struct learnScreensetup: View {
         
         .frame(width: 750,height: 230,  alignment: .top)
         .background(Color.clear)
-        .border(.black, width: 5)
+        .border(.black, width: 2)
         
   /*      Rectangle()
             .fill(Color.red)

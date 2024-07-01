@@ -40,7 +40,7 @@ struct learnmodeView2: View {
         ZStack{
             
           backgroundColor.edgesIgnoringSafeArea(.all)
-            .navigationTitle("Learn Mode")
+           // .navigationTitle("Learn Mode")
             
           VStack(alignment: .center, spacing: 30){
                 
@@ -160,7 +160,7 @@ struct learnmodeView2: View {
         }// end ZStack
         
         .padding(.bottom, 800)  //.padding(.bottom, 798)
-        .navigationBarHidden(true)
+       // .navigationBarHidden(true)
         
               /*  */
 

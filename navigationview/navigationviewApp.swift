@@ -24,6 +24,7 @@ import CoreBluetooth
            // learnmodeView2()
             //learnScreensetup()
             //learnmodetextfield()
+          //  slider2()
                 .onAppear{
                     print("top")
                    // Relief_Mode().setupSubscriptions() 
