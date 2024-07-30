@@ -1,27 +1,18 @@
 //
-//  Inspectionview.swift
+//  vcbHeaderView.swift
 //  navigationview
 //
-//  Created by Billy Cole on 6/26/24.
+//  Created by Billy Cole on 7/18/24.
 //
 
 import SwiftUI
 
-
-
-
-
-
-
-
-struct Inspectionview: View {
-    
+struct vcbHeaderView: View {
     
     
     @State var backgroundColor: Color = Color.white
     @State private var contrSpeed:String = "100 fpm"
-   
-    var image_connect3 = maxtonSetupBar()
+    @State  var n :String
     var ble = navigationviewApp()
     @Environment(\.dismiss) private var dismiss
     @State var bkcolU: Color = Color.white
@@ -31,17 +22,14 @@ struct Inspectionview: View {
     @State var startBtnFrame: Color = Color.green
     @State var startBtn: Color = Color.green
     @State var  isSelected: Bool = false
-      
-    @State var LSensor = SensorView()
-    @State var Lcaradj =  InspectioncontrView()
-    
+   
     @Environment(\.dismiss) private var ovdismiss
     let LmodelObj: Model = modelObj
+       
+
     
-    let ovLmodelObj: Model = modelObj
-    @State private var subScripObj =  SharedSubscriptionManager.shared.singleSubscriptionManager
+
     
-   
     
     
     var body: some View {
@@ -54,7 +42,7 @@ struct Inspectionview: View {
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .background(Color.blue)
-                    .position(x:381,y:35)
+                    .padding(.top, 25)
                 
                 
                 
@@ -62,43 +50,42 @@ struct Inspectionview: View {
                     .font(.title)
                     .frame(maxWidth: .infinity)
                     .background(Color.green)
-                    //.padding(.top, -20)
-                    .position(x:381,y:-45)
+                    .padding(.top, -20)
+                
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
-                HStack(alignment: .center, spacing: 30){
+                HStack(spacing: 30){
                     
                     Text("U")
                         .font(.title)
                         .frame(width:40,height:40,alignment: .center)
-                        .background(subScripObj.bkcolU)
+                        .background(bkcolU)
                     //Text("U").background(Color.red)
                     
                     Text("UL")
                         .font(.title)
                         .frame(width:40,height:40,alignment: .center)
-                        .background(subScripObj.bkcolUL)
+                        .background(bkcolUL)
                     
                     //.foregroundColor(.black)
                     Text("D")
                         .font(.title)
                         .frame(width:40,height:40,alignment: .center)
-                        .background(subScripObj.bkcolD)
+                        .background(bkcolD)
                     
                     
                     Text("DL")
                         .font(.title)
                         .frame(width:40,height:40,alignment: .center)
-                        .background(subScripObj.bkcolDL)
+                        .background(bkcolDL)
                     
                 } // end HStack(spacing: 30)
-                .position(x:380,y:-100)
-                //.padding(.top,-0.0)
+                .padding(.top,-0.0)
                   
-                Text("Inspection Mode")
+                Text(n)
                     .font(.title)
-                   // .padding(.top, -30.0)
-                    .position(x:380,y:-180)
+                    .padding(.top, -30.0)
+                   // .position(x:0,y:0)
                 
                 HStack(spacing: 40){
                     
@@ -138,53 +125,15 @@ struct Inspectionview: View {
                     .background(Color.gray)
                    
                 }// end  HStack(spacing: 40)
-               //102. .padding(.top, 0.0)//end HStack(spacing: 30)
-                .position(x:380,y:-220)
-                
-                 Lcaradj
-                    .position(x:430,y:-180)
-                
-                LSensor
-                    .position(x:380,y:-300)
-                
-                HStack(spacing: 50){
-                    
-                    Image(systemName: "triangle.fill")
-                        .overlay {
-                                      Rectangle()
-                                .stroke(Color.gray, lineWidth: 4)
-                                          .frame(width: 300,
-                                                 height: 40)
-                                  }
-                        .position(x:400,y:100)
-                    Text("speed")
-                    Image(systemName: "triangle.fill")
-                    
-                }
-                .position(x:850,y:100)
-                .frame(width: 300,height: 100)
-                 .position(x:300,y:100)
+                .padding(.top, 0.0)//end HStack(spacing: 30)
           
-                Button {
-                     dismiss()
-                 } label: {
-                     Text("go home")
-                      //   .frame(width: 200,height: 40)
-                     .font(.largeTitle)
-                     .foregroundColor(.black)
-                 }
-                 .frame(width: 200,height: 40)
-                // .padding(.top, 1700.0)
-                 .position(x:610,y:400)
- 
-            
-
+                  
               }// end outer VStack(alignment: .center, spacing: 30)
-            .position(x:385,y:470)
+            .position(x:385,y:114)
             
             
         }//end ZStack
-        .background(Color.white)
+        
     }// end var body: some View
     
     private func setupSubscriptions() {
@@ -250,20 +199,24 @@ struct Inspectionview: View {
         
     }
 
-    
-    
-    
-    
-    
-    
-}// end struct Inspectionview: View
+
+}
 
 
 
 
 
-struct Inspectionview_Previews: PreviewProvider {
+
+
+
+
+
+
+
+struct vcbHeaderView_Previews: PreviewProvider {
+  
+    
     static var previews: some View {
-        Inspectionview()
+        vcbHeaderView(n: "name of mode")
     }
 }

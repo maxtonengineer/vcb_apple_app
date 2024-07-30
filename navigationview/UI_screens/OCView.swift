@@ -27,7 +27,9 @@ struct OCView: View {
     @State var LmotorPeramInp = learnScreensetup()
     @State var Llearnmodetextfield = learnmodetextfield()
     @State var LInstructionsView = InstructionsView()
-    
+   // var x = <#T##vcbstatisPubClass#>()
+   // @State var LSensor = SensorView(connSenorData: x)
+    @State var   LSensor =  SharedmSensorViewObject.shared.singleSenor
     
     
     @Environment(\.dismiss) private var ovdismiss
